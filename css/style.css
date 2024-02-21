@@ -38,6 +38,9 @@ body {
   background-repeat: no-repeat;
   color: #000;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 
 /** Layout **/
 body { display: flex; flex-direction: column; }
@@ -245,17 +248,18 @@ h1 {
 
 #flutter_target.handheld {
     /* position: absolute; */
-    margin-left: -41px;
-    margin-top: 17px;
+    margin-left: -73px;
+    margin-top: 12px;
     /* transform-origin: 0px 0px 0px; */
     /* transform: rotate(-0.1deg) scale(0.80) translate(-539px, -45px); */
-    width: 306px;
-    height: 642px;
+    width: 269px;
+    height: 577px;
     border-radius: 34px;
     border: 1px solid #000;
     overflow: hidden;
     align-self: initial;
 }
+
 
 .imageAttribution {
   position: absolute;
@@ -268,11 +272,12 @@ h1 {
 body {
 
 }
+
 article {
     width: 375px;
     height: 671px;
     background-image: url(../icons/bg-mob.png);
     background-repeat: no-repeat;
-    background-size: 90% auto;
+    background-size: 80% auto;
     position: relative;
 }
