@@ -13,8 +13,8 @@
 
 /** Reset */
 * {
-  box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
+    /* box-sizing: border-box; */
+    font-family: "DM Sans", sans-serif;
 }
 html, body {
   margin: 0;
@@ -248,14 +248,14 @@ h1 {
 
 #flutter_target.handheld {
     /* position: absolute; */
-    margin-left: -73px;
-    margin-top: 12px;
-    /* transform-origin: 0px 0px 0px; */
+    margin-left: -35px;
+    margin-top: 14px;
+    transform-origin: 0px 0px 0px;
     /* transform: rotate(-0.1deg) scale(0.80) translate(-539px, -45px); */
-    width: 269px;
-    height: 577px;
-    border-radius: 34px;
-    border: 1px solid #000;
+    width: 294px;
+    height: 619px;
+    border-radius: 36px;
+    border: 1mm solid #000;
     overflow: hidden;
     align-self: initial;
 }
@@ -274,10 +274,10 @@ body {
 }
 
 article {
-    width: 375px;
-    height: 671px;
+    width: 362px;
+    height: 721px;
     background-image: url(../icons/bg-mob.png);
     background-repeat: no-repeat;
-    background-size: 80% auto;
+    background-size: 90% auto;
     position: relative;
 }
